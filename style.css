@@ -126,6 +126,7 @@ header nav a {
 }
 
 #call_text p {
+  z-index: 1000;
   width: 1400px;
   margin: 100px auto;
   text-align: center;
@@ -896,6 +897,43 @@ main {
   }
 }
 /* Tablet - 768px  END */
+
+/* Tablet (773 x 776) Orientation Album Start */
+
+@media (min-width: 769px) and (max-width: 773px) {
+  header {
+    border: none !important;
+  }
+  header nav {
+    width: 760px !important;
+    grid-template-columns: 186px 110px 110px 110px 140px !important;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .company_link {
+    font-size: 18px !important;
+  }
+
+  .nav_link {
+    font-size: 13px !important;
+  }
+
+  .order_link {
+    font-size: 16px !important;
+    padding: 2px 0 !important;
+  }
+
+  #call_text p {
+    width: 100%;
+  }
+
+  .grid-container {
+    gap: 10px !important;
+  }
+}
+
+/* Tablet (773 x 776) Orientation Album End */
 
 /* Laptop - 1024px  */
 @media (min-width: 769px) and (max-width: 1024px) {
