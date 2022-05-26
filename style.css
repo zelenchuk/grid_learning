@@ -1166,3 +1166,166 @@ main {
   }
 }
 /*  20" Desktop  (1600 x 900) End */
+
+/* 22" Desktop (1680 x 1050) Start */
+@media (min-width: 1601px) and (max-width: 1680px) {
+  #gears_block img:first-child {
+    width: 250px;
+    top: 24.5%;
+    left: -10%;
+    position: fixed;
+  }
+
+  #gears_block img:nth-child(2) {
+    width: 150px;
+    left: -7%;
+
+    top: 53%;
+    z-index: 1;
+    position: fixed;
+  }
+
+  #gears_block img:last-child {
+    width: 90px;
+    left: 1%;
+    top: 49%;
+    z-index: 1;
+    position: fixed;
+  }
+
+  header nav {
+    width: 1500px;
+    margin: 20px auto;
+    grid-template-columns: 400px 200px 200px 200px 250px;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  #call_text p {
+    font-size: 120px;
+    width: 100%;
+  }
+}
+/* 22" Desktop (1680 x 1050) End */
+
+/* 23" Desktop (1920 x 1080) Start */
+@media (min-width: 1681px) and (max-width: 1920px) {
+  #gears_block img:first-child {
+    width: 250px;
+    top: 24.5%;
+    left: -5%;
+    position: fixed;
+  }
+
+  #gears_block img:nth-child(2) {
+    width: 150px;
+    left: -3%;
+
+    top: 53%;
+    z-index: 1;
+    position: fixed;
+  }
+
+  #gears_block img:last-child {
+    width: 90px;
+    left: 2.5%;
+    top: 47%;
+    z-index: 1;
+    position: fixed;
+  }
+  header nav {
+    width: 1600px;
+    grid-template-columns: 480px 200px 200px 200px 280px;
+  }
+
+  .company_link {
+    font-size: 45px;
+  }
+
+  .nav_link {
+    font-size: 20px;
+  }
+
+  .order_link {
+    font-size: 25px;
+  }
+
+  #call_text p {
+    margin: 150px auto;
+  }
+
+  .grid-container {
+    grid-template-columns: 19% 19% 19% 19%;
+    justify-content: center;
+  }
+
+  .grid-item h2 {
+    font-size: 32px;
+  }
+
+  .grid-item p {
+    font-size: 20px;
+  }
+}
+/* 23" Desktop (1920 x 1080) End */
+
+/* 4K (2560 x 1080) Start */
+@media (min-width: 1921px) and (max-width: 2560px) {
+  #gears_block img:first-child {
+    width: 320px;
+    top: 24.5%;
+    left: -5%;
+    position: fixed;
+  }
+
+  #gears_block img:nth-child(2) {
+    width: 180px;
+    left: -3%;
+
+    top: 60%;
+    z-index: 1;
+    position: fixed;
+  }
+
+  #gears_block img:last-child {
+    width: 120px;
+    left: 2%;
+    top: 52.6%;
+    z-index: 1;
+    position: fixed;
+  }
+  header nav {
+    width: 2100px;
+    grid-template-columns: 600px 250px 250px 250px 340px;
+  }
+
+  .company_link {
+    font-size: 50px;
+  }
+
+  .nav_link {
+    font-size: 26px;
+  }
+
+  .order_link {
+    font-size: 32px;
+  }
+
+  #call_text p {
+    margin: 150px auto;
+  }
+
+  .grid-container {
+    grid-template-columns: 19% 19% 19% 19%;
+    justify-content: center;
+  }
+
+  .grid-item h2 {
+    font-size: 38px;
+  }
+
+  .grid-item p {
+    font-size: 26px;
+  }
+}
+/* 4K (2560 x 1080) End */
