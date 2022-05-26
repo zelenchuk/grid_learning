@@ -30,7 +30,7 @@
       }
 
       /* Rotation animate Start*/
-      @-webkit-keyframes rotating {
+      @-webkit-keyframes rotating_preloader {
         from {
           -webkit-transform: rotate(0deg);
           -o-transform: rotate(0deg);
@@ -42,7 +42,7 @@
           transform: rotate(360deg);
         }
       }
-      @keyframes rotating {
+      @keyframes rotating_preloader {
         from {
           -ms-transform: rotate(0deg);
           -moz-transform: rotate(0deg);
@@ -58,12 +58,12 @@
           transform: rotate(360deg);
         }
       }
-      .rotating {
-        -webkit-animation: rotating 1s linear infinite;
-        -moz-animation: rotating 1s linear infinite;
-        -ms-animation: rotating 1s linear infinite;
-        -o-animation: rotating 1s linear infinite;
-        animation: rotating 1s linear infinite;
+      .rotating_preloader {
+        -webkit-animation: rotating_preloader 1s linear infinite;
+        -moz-animation: rotating_preloader 1s linear infinite;
+        -ms-animation: rotating_preloader 1s linear infinite;
+        -o-animation: rotating_preloader 1s linear infinite;
+        animation: rotating_preloader 1s linear infinite;
       }
       /* Rotation animate END*/
     </style>
@@ -91,7 +91,7 @@
 
   <body>
     <div id="preloader">
-      <img class="rotating" src="gear.svg" alt="gear" />
+      <img class="rotating_preloader" src="gear.svg" alt="gear" />
     </div>
 
     <!--gears block start-->
